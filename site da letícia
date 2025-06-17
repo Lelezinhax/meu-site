@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Segurança Digital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Segurança Digital</h1>
+    <nav>
+      <a href="#dicas">Dicas</a>
+      <a href="#ferramentas">Ferramentas</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Bem-vindo!</h2>
+      <p>Aprenda a se proteger no mundo digital. Conheça boas práticas, ferramentas e fique longe de golpes online.</p>
+    </section>
+
+    <section id="dicas">
+      <h2>Dicas de Segurança</h2>
+      <ul>
+        <li>Use senhas fortes e únicas</li>
+        <li>Evite clicar em links suspeitos</li>
+        <li>Ative autenticação em duas etapas</li>
+      </ul>
+    </section>
+
+    <section id="ferramentas">
+      <h2>Ferramentas Recomendadas</h2>
+      <ul>
+        <li>Gerenciador de Senhas: Bitwarden, LastPass</li>
+        <li>Antivírus: Kaspersky, Avast</li>
+        <li>VPN: ProtonVPN, NordVPN</li>
+      </ul>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <form>
+        <label for="email">Seu e-mail:</label>
+        <input type="email" id="email" required>
+        <label for="msg">Sua mensagem:</label>
+        <textarea id="msg" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Site Segurança Digital</p>
+  </footer>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #1a73e8;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+button {
+  background: #1a73e8;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
